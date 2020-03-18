@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/nawinest/NWSoftUI"
   spec.license      = ""
   spec.author       = { "Nawin P." => "nawinc.work@gmail.com" }
-  spec.source       = { :git => "https://github.com/nawinest/NWSoftUI.git", :tag => "0.1.0" }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source       = { :git => "https://github.com/nawinest/NWSoftUI.git", :tag => spec.version }
+  spec.source_files  = "Classes", 'Classes/*.{h,m,swift}'
   spec.exclude_files = "Classes/Exclude"
 end
